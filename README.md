@@ -1,6 +1,6 @@
-# 🎴 Yu-Gi-Oh CRUD — React Native + Expo + Node.js
+# Yu-Gi-Oh CRUD 
 
-## 📁 Estrutura
+##  Estrutura
 ```
 yugioh-crud/
 ├── backend/
@@ -16,24 +16,24 @@ yugioh-crud/
     └── package.json
 ```
 
-## 🚀 Como rodar
+## Como rodar
 
-### 1. Backend (rode primeiro!)
+1. Backend (primeiro)
 ```bash
 cd backend
 npm install
 npm run dev
 ```
-API rodando em: http://localhost:3001
+API rodando local
 
-### 2. Frontend
+ 2. Frontend
 ```bash
 cd frontend
 npm install
 npx expo start
 ```
 
-### 3. Rotas da API
+ 3. Rotas da API
 | Método | Rota              | Descrição         |
 |--------|-------------------|-------------------|
 | GET    | /favoritos        | Listar favoritos  |
@@ -41,15 +41,19 @@ npx expo start
 | PUT    | /favoritos/:id    | Editar nota       |
 | DELETE | /favoritos/:id    | Remover favorito  |
 
-## 📱 Funcionalidades
+ Funcionalidades
 - Puxar carta aleatória da API YGOPRODeck
 - Adicionar carta ao baralho de favoritos
 - Ver lista de cartas favoritadas
 - Editar nota pessoal de cada carta
 - Remover carta dos favoritos
 
-## ⚠️ Celular físico
+## Celular físico
 Edite o arquivo `api.js` e coloque o IP da sua máquina:
 ```javascript
 return 'http://192.168.X.X:3001'; // seu IP local
 ```
+
+
+
+PRECISO DE UM OTIMO S2
