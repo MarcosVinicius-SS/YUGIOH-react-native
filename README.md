@@ -49,7 +49,7 @@ npx expo start
 - Remover carta dos favoritos
 
 ## Celular físico
-Edite o arquivo `api.js` e coloque o IP da sua máquina:
+Edita o arquivo `api.js` e coloca o IP da tua maquina:
 ```javascript
 return 'http://192.168.X.X:3001'; // seu IP local
 ```
